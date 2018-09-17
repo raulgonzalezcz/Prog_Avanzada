@@ -1,2 +1,10 @@
 # UNAM Courses: Advanced Programming
-Projects done by studying Master in Science and Engineering Computer at UNAM. Course Advanced Programming
+Advanced Programming course at UNAM
+
+## Work
+Example of simple applications that demonstrate my experience in Java.
+
+## Author
+**Raúl González Cruz**
+>*Computer Systems Engineer, UDLAP*\
+>*Master in Science and Engineering Computer, UNAM*

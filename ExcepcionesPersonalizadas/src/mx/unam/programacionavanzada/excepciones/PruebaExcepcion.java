@@ -67,7 +67,17 @@ public class PruebaExcepcion {
 	}
 	
 	/**
-	 * &iquest;Por qu&eacute; no se declara una excepci&oacute;n?
+	 * &iquest;Por qu&eacute; no se declara una excepci&oacute;n?<br>
+	 * 
+	 * <br>A pesar de que no existe error en tiempo de compilación, se marcará
+	 * error en tiempo de ejecución dada la división entre 0. En este caso, creo
+	 * que el autor del código se percató que la división entre 0 se refiere a un tipo
+	 * de excepción verificada (ArithmeticException), la cual debe ser atrapada en
+	 * un bloque try-catch durante la ejecución del método dentro del programa. 
+	 * Por lo cual, considero que el autor decidió establecer la lógica que permite
+	 * causar una excepción en tiempo de ejecución dentro del método, moviendo la carga
+	 * de trabajo para declarar la excepción en la parte del 
+	 * código donde se llamará este método dentro de un bloque try-catch
 	 */
 	public void provocarExcepcionEnTiempoEjecucion(){
 		System.out.println(33/0);
